@@ -16,7 +16,7 @@ order.setStatus(OrderStatus.UNPAID);      // 待支付 = UNPAID:待支付
 submit(order.getOrderNo());               // 订单编号，全局唯一 = orderNo:订单编号
 ```
 
-- 插件 ID：`com.jzt.international.cncomment` ｜ 版本：`2.6.3-261`
+- 插件 ID：`com.jzt.international.cncomment` ｜ 版本：`2.6.4-261`
 - 支持 IDE：IntelliJ IDEA、PhpStorm（同一份插件包，语言能力按需启用）
 - 界面语言：中文 / English（跟随 IDE 语言，也可在设置里指定）
 - 📖 [使用说明文档](https://www.kdocs.cn/l/cjINZ8uJoVkl)（仓库内副本：[docs/user-guide_zh.md](docs/user-guide_zh.md)）：逐个功能讲「在哪里、怎么开、看到什么算正常」

@@ -16,7 +16,7 @@ order.setStatus(OrderStatus.UNPAID);      // 待支付 = UNPAID:待支付
 submit(order.getOrderNo());               // 订单编号，全局唯一 = orderNo:订单编号
 ```
 
-- Plugin ID: `com.jzt.international.cncomment` | Version: `2.6.3-261`
+- Plugin ID: `com.jzt.international.cncomment` | Version: `2.6.4-261`
 - Supported IDEs: IntelliJ IDEA and PhpStorm — one package, language capabilities enabled on demand
 - UI language: 中文 / English (follows the IDE, or can be set manually)
 - 📖 [User guide](https://www.kdocs.cn/l/cjINZ8uJoVkl) (Chinese; in-repo copy: [docs/user-guide_zh.md](docs/user-guide_zh.md)): for every feature, where it lives, how to turn it on, and what "normal" looks like

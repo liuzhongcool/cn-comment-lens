@@ -1,6 +1,6 @@
 # CN Comment Lens 使用说明
 
-适用版本：2.6.3 ｜ 适用 IDE：IntelliJ IDEA、PhpStorm
+适用版本：2.6.4 ｜ 适用 IDE：IntelliJ IDEA、PhpStorm
 本文只讲「怎么用」：每个功能在哪里、怎么开、看到什么算正常、看到什么该查哪里。
 
 ---
@@ -100,9 +100,22 @@ submit(order.getOrderNo());               // 订单编号，全局唯一 = order
 
 ## 二、插件核心功能截图
 
+> **本节图片待补**。下图注与建议文件名已排好，补图时把截图放到 `docs/images/`，再按下表替换对应位置即可。
 
+| 图号 | 对应功能 | 建议文件名 | 建议图注 | 插入位置 |
+|---|---|---|---|---|
+| 图 1 | 行尾中文注释 | `docs/images/01-inline-hints.png` | 字段 / 枚举常量 / 形参的中文注释贴在代码行尾 | 3.1 |
+| 图 2 | 行尾提示的折叠与展开 | `docs/images/02-inline-collapsed.png` | 同一行提示较多时折叠为 `+N ▸`，点击展开完整列表 | 3.1.5 |
+| 图 3 | 悬停完整注释与来源 | `docs/images/03-hover-doc.png` | 在引用处悬停：完整注释、来源与行号，可点「打开注释原文」 | 3.2 |
+| 图 4 | Project 视图文件注释 | `docs/images/04-project-view.png` | 文件名后追加该文件的说明 | 3.3 |
+| 图 5 | 覆盖率检查与快速修复 | `docs/images/05-coverage-inspection.png` | 缺中文注释的公共成员被标黄，`Alt+Enter` 生成注释骨架 | 3.4 |
+| 图 6 | 覆盖率报告 | `docs/images/06-coverage-report.png` | Markdown 报告：总览 / 分语言 / 分包小计 | 3.5 |
+| 图 7 | 数据库反查行尾提示（PHP） | `docs/images/07-php-db-hints.png` | 查询构造器的字符串列名显示列注释与来源标记 | 3.6.9 |
+| 图 8 | MyBatis Mapper 补全与悬停 | `docs/images/08-mybatis.png` | 写 `别名.` 补全该表字段；悬停按数据源分行 | 3.6.10 |
+| 图 9 | 数据库字段反查设置页 | `docs/images/09-db-settings.png` | 公共反查项、`.sql` 组与真实数据源组、索引状态与数据表列表 | 4.5 |
+| 图 10 | 主设置页 | `docs/images/10-main-settings.png` | 插件语言、展示范围、开关、样式与分隔符 | 4.2 |
 
-----
+---
 
 ## 三、插件功能说明
 
